@@ -1,0 +1,18 @@
+version: 2
+
+sources: 
+  - name: employees
+    database: company
+    schema: public
+    tables: 
+      - name: employees
+      - name: salaries
+      - name: titles
+
+  - name: depts 
+    database: company
+    schema: public
+    tables: 
+      - name: departments
+      - name: dept_emp
+      - name: dept_manager
